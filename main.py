@@ -74,7 +74,7 @@ for i, ronda in enumerate(rounds):     # enumerate me devuelve indice y valor
     for player, data in scores:
         print(f"{player}: {data['score']} puntos")
     
-    print("-" * 40)
+    print("-" * 35)
 
 # Ranking final
 print("\n")

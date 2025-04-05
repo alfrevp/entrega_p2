@@ -47,6 +47,7 @@ for player in rounds[0].keys():
 def calcular_puntos(k, a, d):
     return k * 3 + a * 1 - d  # tendria que evitar el puntaje negativo? (uso de max)
 
+
 for i, ronda in enumerate(rounds):     # enumerate me devuelve indice y valor
     print(f'Ranking de ronda numero {i+1} :')
 
